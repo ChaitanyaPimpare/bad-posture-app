@@ -2,6 +2,7 @@ services:
   - type: web
     name: bad-posture-backend
     env: python
+    rootDir: backend
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
     pythonVersion: 3.10.13
