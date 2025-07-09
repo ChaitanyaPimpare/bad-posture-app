@@ -3,8 +3,8 @@ frontend/node_modules/
 frontend/.env
 
 # Python
-backend/venv/
-backend/__pycache__/
+venv/
+__pycache__/
 *.pyc
 
 # System
