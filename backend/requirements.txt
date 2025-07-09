@@ -3,3 +3,4 @@ flask-cors
 opencv-python
 numpy
 mediapipe==0.10.9
+python-3.10.12
