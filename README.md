@@ -58,5 +58,5 @@ A full-stack web application that detects bad posture (e.g., slouching, knee ove
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/bad-posture-app.git
+git clone https://github.com/ChaitanyaPimpare/bad-posture-app.git
 cd bad-posture-app
