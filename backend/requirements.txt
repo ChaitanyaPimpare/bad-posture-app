@@ -3,4 +3,3 @@ flask-cors
 opencv-python
 numpy
 mediapipe==0.10.9
---extra-index-url https://google-coral.github.io/py-repo/
