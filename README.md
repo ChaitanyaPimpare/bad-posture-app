@@ -12,7 +12,6 @@ A full-stack web application that detects bad posture (e.g., slouching, knee ove
 -  Rule-based feedback (for squats or desk posture)
 -  Frontend: React + Webcam streaming
 -  Backend: Flask + OpenCV
--  Deployment: Render (fully online)
 
 ---
 
@@ -27,10 +26,6 @@ A full-stack web application that detects bad posture (e.g., slouching, knee ove
 
 ---
 
-## 🚀 Live Demo
-
-🔗 **Frontend URL**: [https://bad-posture-frontend.onrender.com](https://bad-posture-frontend.onrender.com)  
-🔗 **Backend API**: [https://bad-posture-backend.onrender.com](https://bad-posture-backend.onrender.com)
 
 ---
 
@@ -60,3 +55,21 @@ A full-stack web application that detects bad posture (e.g., slouching, knee ove
 ```bash
 git clone https://github.com/ChaitanyaPimpare/bad-posture-app.git
 cd bad-posture-app
+
+2. Backend Setup (Flask)
+cd backend
+python -m venv venv
+venv\Scripts\activate     # On Windows
+# source venv/bin/activate  # On macOS/Linux
+
+pip install -r requirements.txt
+To run the Flask server locally:
+
+python app.py
+This will start the backend server at http://localhost:5000.
+
+3. Frontend Setup (React)
+cd ../frontend
+npm install
+npm start
+This will launch the React development server at http://localhost:3000.
